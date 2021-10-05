@@ -1,0 +1,79 @@
+*{
+margin: 0;
+
+
+}
+
+.encabezado{
+position: absolute;
+background-image:url(../IMG/fotobanner.jpg);
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+
+
+
+}
+
+.contenido{
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.contenido p {
+font-size: 20px;
+
+
+}
+
+.contenido h2,h1{
+font-size: 40px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+display: block;
+
+
+
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgb(173, 202, 8);
+    text-align: right;
+    right: 30%;
+    
+    
+}
+
+
+.logo{
+position: absolute;
+top: 0;
+left: 20%;
+
+}
+.logo img{
+width: 100px;
+
+
+}
+
+
+.menu a{
+text-decoration: none;
+font-size: 18px;
+}
+
+.socialmedia a{
+text-decoration: none;
+
+}
