@@ -1,0 +1,14 @@
+.perfil{
+position: absolute;
+width: 100%;
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.perfil img{
+width: 100%;
+
+
+}
