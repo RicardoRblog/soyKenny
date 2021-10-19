@@ -4,6 +4,7 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
 
+
 }
 
 .menu a{
@@ -16,9 +17,15 @@ justify-content: space-between;
 
 .hamb{
 font-size: 20px;
-color: #ffff;
+color: #fff;
 border: 1px solid #fff;
 padding: 10px;
 margin: 10px;
 border-radius: 5px;
+}
+
+
+.hamb ~{
+ display: flex;
+
 }
